@@ -25,6 +25,7 @@ create table Customers(Cust_ID int auto_increment not null,Cust_FirstName varc
 
 
 Hello craft
+Hello guys 
 
 
 

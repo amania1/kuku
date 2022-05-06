@@ -24,3 +24,7 @@ values ("babi", 23,"zelalem",6754223,"arlinton",2233)
 create table Customers(Cust_ID int auto_increment not null,Cust_FirstName varchar(255) not null,Cust_LastName varchar(255) not null,Cust_NickName varchar(255),Cust_Age int,Cust_Gender char(5) not null,Cust_Country varchar(255) not null,Cust_Salary dec not null,primary key (Cust_ID)
 
 
+Hello craft
+
+
+

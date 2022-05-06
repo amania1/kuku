@@ -1,0 +1,67 @@
+create schema myDB  
+use mydb
+create table Customers(
+Cust_ID int auto_increment not null,
+Cust_FirstName varchar(255) not null,
+Cust_LastName varchar(255) not null,
+Cust_NickName varchar(255),
+Cust_Age int,
+Cust_Gender char(5) not null,
+Cust_Country varchar(255) not null,
+Cust_Salary dec not null,
+primary key (Cust_ID)
+
+ 
+customers alter table customers 
+ add column bouns int not null
+ 
+ alter table customers
+ modify cust_age int not null;
+ 
+ alter table customers
+ drop cust_nickname 
+ 
+ alter table customers
+ drop bouns;
+ 
+ rename table
+ customers to customer 
+ 
+ drop table customer 
+ 
+ drop database myDB
+ 
+ create schema myDB
+
+create table Customers(
+Cust_ID int auto_increment not null,
+Cust_FirstName varchar(255) not null,
+Cust_LastName varchar(255) not null,
+Cust_NickName varchar(255),
+Cust_Age int,
+Cust_Gender char(5) not null,
+Cust_Country varchar(255) not null,
+Cust_Salary dec not null,
+primary key (Cust_ID)
+);
+
+alter table customers
+drop cust_nickname;
+
+insert into customers (Cust_ID,Cust_FirstName,Cust_LastName,Cust_Age,Cust_Gender,Cust_Country,Cust_Salary)
+values(111, "Nick", "Jones", 26, "M", "USA", 20000),
+ (222, "Antony", "Martial", 24, "M", "France", 10000),
+ (333, "Nebiha", "Amir", 24, "F", "Uzbekistan",36000),
+ (444, "Soresa", "Hailu", 24, "M", "Unkown", 34000),
+ (555, "Beka", "Haile", 25, "M", "Kazakhstan", 40000),
+ (777, "Poul", "Pogba", 26, "M", "France",20000),
+ (888, "Betty", "G", 27, "F", "Ethiopia", 70000)
+
+alter table  customers 
+add column bouns dec;
+
+
+
+update customers
+set bouns ="2000"
+where cust_ID="111"

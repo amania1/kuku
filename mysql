@@ -12,7 +12,7 @@ Cust_Salary dec not null,
 primary key (Cust_ID)
 
  
-customers alter table customers 
+ alter table customers 
  add column bouns int not null
  
  alter table customers

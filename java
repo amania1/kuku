@@ -1,3 +1,5 @@
+                          ----------> Print 
+
 
 		String empfullName = "amanias teshome";
 		double empsalary = 23485;
@@ -18,7 +20,7 @@
 
 
 
-String studentfullName = "lulu teshome";
+	String studentfullName = "lulu teshome";
 	int studentAge = 20;
 	double totalcourse = 5;
 	double monthlypaymen = 2000;
@@ -28,4 +30,67 @@ String studentfullName = "lulu teshome";
 		System.out.println ("totalcourse 5");
 		System.out.println ("monthlypayment 2000");
 		System.out.println ("studentid 2346");
+		
+		
+	}
+          
+}
+              --------->  Variable 
+
+
+		public void methodeone() {
+		int i = 10; // local variable
+		System.out.println("the value of i: "+i);
+		
+  }
+		
+    public void methodetwo() {
+	int k = 20; // local variable
+    System.out.println("the value of k: "+k);
+// System.out.println("the value of i: "+i);
+   }
+ 
+ public void methodetree() {
+	 int D = 9; // local variable
+	   System.out.println("the value of D: "+D);
+	// System.out.println("the value of k: "+k);
+	// System.out.println("the value of i: "+i);
+ }
+ public static void main(String[] args) {
+	 localvariabledemo m1 = new localvariabledemo();
+	  m1.methodeone();
+	  m1.methodetwo();
+	  m1.methodetree();
+  }
+ }
+
+
+            ---------> Scanner
+
+
+String firstname;
+
+Scanner s = new Scanner (System.in);
+System.out.println("inter your first name");
+firstname = s.nextLine();
+System.out.println("welcome : " + firstname);
+		
+		int a;
+		
+		int b; 
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("inter your first number");
+		a = input.nextInt();
+		System.out.println("inter your second number");
+		b = input .nextInt();
+		System.out.println("the some of your number is (a+b)");
+	}
+
+}
+
+
+
+
+
 		
